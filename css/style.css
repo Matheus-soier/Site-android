@@ -26,10 +26,16 @@
   --fonths: droid, cursive;
 }
 
-h2,
 h3 {
   font-family: var(--fonths);
   background-image: linear-gradient(to right, var(--cor1), transparent);
+  color: var(--cor4);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: var(--fonths);
   color: var(--cor4);
   padding: 5px;
   border-radius: 5px;
